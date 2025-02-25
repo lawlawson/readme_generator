@@ -1,10 +1,10 @@
-# Readme Generator Super!!!
+# Readme Generator Project
 
 ## Description
-This is a super version of the readme generator project.
+This is the description for the readme generator project
 
 ## Installation
-npm install
+run npm install
 
 ## Usage
 npm run start
