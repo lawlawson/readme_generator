@@ -1,16 +1,16 @@
-# The Project
+# Readme Generator Super!!!
 
 ## Description
-SOmething
+This is a super version of the readme generator project.
 
 ## Installation
-SOmething
+npm install
 
 ## Usage
-Something
+npm run start
 
 ## License
-This project is licensed under the Mozilla Public License 2.0.
+This project is licensed under the Unlicense.
 
 ## Author
-LawLaw
+Lawrence Narh-Lawson
