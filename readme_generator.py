@@ -21,7 +21,7 @@ questions = [
     {"type": "input", "name": "author", "message": "Enter Contact/Author information:"}
 ]
 
-console.print(Text("\n[bold cyan]Project README Generator[/bold cyan]"))
+console.print(("\n[bold bright_green]Project README Generator[/bold bright_green]"))
 console.print("Answer the following questions to generate a README.md file:\n")
 
 answers = prompt(questions)
@@ -47,4 +47,4 @@ This project is licensed under the {answers['license']}.
 with open("README.md", "w") as file:
     file.write(readme_content)
 
-console.print(("\n[bold green]README.md successfully created![/bold green]"))
+console.print(("\n[bold bright_red]README.md successfully created![/bold bright_red]"))

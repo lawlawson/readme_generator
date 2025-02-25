@@ -1,16 +1,16 @@
-# Readme generator
+# The Project
 
 ## Description
-A generator for readme project
+SOmething
 
 ## Installation
-1. npm install dependencies 2. npm run start to start program
+SOmething
 
 ## Usage
-npm run start
+Something
 
 ## License
-This project is licensed under the Apache License 2.0.
+This project is licensed under the Mozilla Public License 2.0.
 
 ## Author
-Lawrence Narh-Lawson
+LawLaw
