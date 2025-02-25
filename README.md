@@ -1,16 +1,16 @@
-# Top sports stars 2025
+# Readme generator
 
 ## Description
-Description of sports stars
+A generator for readme project
 
 ## Installation
-something
+1. npm install dependencies 2. npm run start to start program
 
 ## Usage
-something else
+npm run start
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the Apache License 2.0.
 
 ## Author
-lawrence
+Lawrence Narh-Lawson

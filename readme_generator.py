@@ -1,15 +1,15 @@
-from InquirerPy import prompt
-from rich.console import Console
-from rich.text import Text
+from InquirerPy import prompt # type: ignore
+from rich.console import Console # type: ignore
+from rich.text import Text # type: ignore
 
 console = Console()
 
 questions = [
-    {"type": "input", "name": "title", "message": "Enter the project title:"},
-    {"type": "input", "name": "description", "message": "Enter the project description:"},
+    {"type": "input", "name": "title", "message": "Enter a Project Title:"},
+    {"type": "input", "name": "description", "message": "Enter a Project Description:"},
     {"type": "input", "name": "installation", "message": "Enter installation instructions:"},
     {"type": "input", "name": "usage", "message": "Enter usage instructions:"},
-    {"type": "list", "name": "license", "message": "Select a license:", "choices": [
+    {"type": "list", "name": "license", "message": "Select a license from the list:", "choices": [
         "MIT License",
         "Apache License 2.0",
         "GNU General Public License (GPL v3)",
@@ -18,7 +18,7 @@ questions = [
         "Creative Commons (CC0, CC BY, etc.)",
         "Unlicense"
     ]},
-    {"type": "input", "name": "author", "message": "Enter author/contact information:"}
+    {"type": "input", "name": "author", "message": "Enter Contact/Author information:"}
 ]
 
 console.print(Text("\n[bold cyan]Project README Generator[/bold cyan]"))
@@ -47,4 +47,4 @@ This project is licensed under the {answers['license']}.
 with open("README.md", "w") as file:
     file.write(readme_content)
 
-console.print(Text("\n[bold green]README.md successfully created![/bold green]"))
+console.print(("\n[bold green]README.md successfully created![/bold green]"))
